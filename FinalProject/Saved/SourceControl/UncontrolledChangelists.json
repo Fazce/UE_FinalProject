@@ -5,8 +5,10 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/3J/SOGJ2LXHOICE6QMGICYD4F.uasset",
-				"C:/Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/FirstPerson/_GENERATED/esteve21/Box_707C7676.uasset"
+				"C:/Users/danie/Unreal_Projects/UE_FinalProject/UE_FinalProject/FinalProject/Content/Blueprints/BP_CharacterBase.uasset",
+				"C:/Users/danie/Unreal_Projects/UE_FinalProject/UE_FinalProject/FinalProject/Content/Blueprints/BP_TrapBase.uasset",
+				"C:/Users/danie/Unreal_Projects/UE_FinalProject/UE_FinalProject/FinalProject/Content/Blueprints/Player_Assets/BP_CharacterBase.uasset",
+				"C:/Users/danie/Unreal_Projects/UE_FinalProject/UE_FinalProject/FinalProject/Content/Blueprints/Traps/BP_TrapBase.uasset"
 			]
 		}
 	]
