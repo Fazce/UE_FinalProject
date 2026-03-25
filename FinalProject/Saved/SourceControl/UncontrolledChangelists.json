@@ -5,6 +5,7 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+<<<<<<< Updated upstream
 				"C:/Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/W0/RTEFXSATTAVCPYEQHKNEY1.uasset",
 				"C:/Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/V1/DLNCFC4C5RQ8EDPCDYCKHQ.uasset",
 				"C:/Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/TO/58Y2HCG1B7M6VAJN1E38IS.uasset",
@@ -173,6 +174,14 @@
 				"C:/Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/LevelPrototyping/1-1.uasset",
 				"C:/Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/LevelPrototyping/Plane.uasset",
 				"C:/Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/LevelPrototyping/FbxScene_1-1.uasset"
+=======
+				"C:/Users/danie/Unreal_Projects/UE_FinalProject/UE_FinalProject/FinalProject/Content/Blueprints/Player_Assets/BP_CharacterBase.uasset",
+				"C:/Users/danie/Unreal_Projects/UE_FinalProject/UE_FinalProject/FinalProject/Content/Blueprints/Player_Assets/BP_CharacterGlider.uasset",
+				"C:/Users/danie/Unreal_Projects/UE_FinalProject/UE_FinalProject/FinalProject/Content/Blueprints/GameModes/GM_CharacterGlider.uasset",
+				"C:/Users/danie/Unreal_Projects/UE_FinalProject/UE_FinalProject/FinalProject/Content/FirstPerson/Lvl_FirstPerson.umap",
+				"C:/Users/danie/Unreal_Projects/UE_FinalProject/UE_FinalProject/FinalProject/Content/Blueprints/Player_Assets/BP_ThirdPersonCharacter.uasset",
+				"C:/Users/danie/Unreal_Projects/UE_FinalProject/UE_FinalProject/FinalProject/Content/FirstPerson/Blueprints/BP_FirstPersonGameMode.uasset"
+>>>>>>> Stashed changes
 			]
 		}
 	]
