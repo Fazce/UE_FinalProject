@@ -1237,3 +1237,6 @@ LogInit: Object subsystem initialized
 [2026.03.27-20.56.53:897][165]AssetCheck: /Game/FirstPerson/Lvl_FirstPerson Validating asset
 [2026.03.27-20.56.53:929][165]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/elain/OneDrive/Desktop/school stuff/Sophmore year/UE_FinalProject/FinalProject/Saved/SourceControl/UncontrolledChangelists.json
 [2026.03.27-20.57.06:169][236]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2026.03.27-20.57.31:160][336]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 319.470490
+[2026.03.27-20.57.32:161][339]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.27-20.57.32:161][339]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 320.141479, Update Interval: 317.120880
