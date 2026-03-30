@@ -5,6 +5,10 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/tparke31/Desktop/UE_FinalProject/FinalProject/Content/Widgets/WBP/WBP_Player_HUD.uasset",
+				"C:/Users/tparke31/Desktop/UE_FinalProject/FinalProject/Content/Widgets/WBP/WBP_HealthBar.uasset",
+				"C:/Users/tparke31/Desktop/UE_FinalProject/FinalProject/Content/Widgets/WBP/WBP_Ability_Icon.uasset",
+				"C:/Users/tparke31/Desktop/UE_FinalProject/FinalProject/Content/Widgets/WBP/WBP_Key_Inventory.uasset",
 				"C:/Users/danie/Unreal_Projects/UE_FinalProject/UE_FinalProject/FinalProject/Content/Blueprints/Player_Assets/BP_CharacterBase.uasset",
 				"C:/Users/danie/Unreal_Projects/UE_FinalProject/UE_FinalProject/FinalProject/Content/PlayerAssets/Y_Bot.uasset",
 				"C:/Users/danie/Unreal_Projects/UE_FinalProject/UE_FinalProject/FinalProject/Content/PlayerAssets/Y_Bot_Anim.uasset",
