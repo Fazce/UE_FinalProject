@@ -2367,3 +2367,57 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.04.01-14.35.29:739][373]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/SourceControl/UncontrolledChangelists.json
 [2026.04.01-14.36.02:446][759]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
 [2026.04.01-14.36.15:764][199]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2026.04.01-14.37.10:007][827]LogInteractiveToolsContext: Display: This Tool creates new shapes. Click in the scene to choose initial placement of mesh.
+[2026.04.01-14.37.10:008][827]LogInteractiveToolsContext: Display: This Tool creates new shapes. Click in the scene to choose initial placement of mesh.
+[2026.04.01-14.37.12:848][115]LogInteractiveToolsContext: Display: Alter shape settings in the detail panel or modify placement with gizmo, then accept the tool.
+[2026.04.01-14.37.14:711][295]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/FirstPerson/_GENERATED/esteve21/Box_14CD93A4.Box_14CD93A4
+[2026.04.01-14.37.14:711][295]LogStaticMesh: Display: Building static mesh Box_14CD93A4 (Required Memory Estimate: 0.027864 MB)...
+[2026.04.01-14.37.14:712][295]LogStaticMesh: Built static mesh [0.00s] /Game/FirstPerson/_GENERATED/esteve21/Box_14CD93A4.Box_14CD93A4
+[2026.04.01-14.37.14:713][295]LogActorFactory: Actor Factory spawned StaticMesh /Game/FirstPerson/_GENERATED/esteve21/Box_14CD93A4.Box_14CD93A4 as actor: StaticMeshActor /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson:PersistentLevel.StaticMeshActor_UAID_00BE43BBC0306BCD02_1758798848
+[2026.04.01-14.37.17:392][580]Cmd: EDIT COPY
+[2026.04.01-14.37.18:158][664]Cmd: EDIT PASTE
+[2026.04.01-14.37.24:221][323]Cmd: EDIT COPY
+[2026.04.01-14.37.24:860][393]Cmd: EDIT PASTE
+[2026.04.01-14.37.32:159][177]Cmd: EDIT COPY
+[2026.04.01-14.37.32:479][213]Cmd: EDIT PASTE
+[2026.04.01-14.37.45:559][599]LogPSOHitching: Encountered 600 PSO creation hitches so far (301 graphics, 299 compute). 0 of them were precached.
+[2026.04.01-14.38.25:020][925]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2093.590332
+[2026.04.01-14.38.25:104][935]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.01-14.38.25:104][935]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2093.667236, Update Interval: 349.956360
+[2026.04.01-14.39.15:215][548]Cmd: DELETE
+[2026.04.01-14.39.15:215][548]Cmd: ACTOR DELETE
+[2026.04.01-14.39.19:829][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2026.04.01-14.39.19:835][ 29]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.01-14.39.19:905][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2026.04.01-14.39.19:926][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2026.04.01-14.39.19:947][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2026.04.01-14.39.19:957][ 29]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/XD/PIOO0SX1SJBU6E6LXPBBQI
+[2026.04.01-14.39.19:957][ 29]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/PIOO0SX1SJBU6E6LXPBBQI96939DFA43AF2262759F9A8F4EA93B2C.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/XD/PIOO0SX1SJBU6E6LXPBBQI.uasset'
+[2026.04.01-14.39.19:962][ 29]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/XR/R1ZU5TGPYT84X4YT883IGC
+[2026.04.01-14.39.19:963][ 29]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/R1ZU5TGPYT84X4YT883IGC49BE4C1842188762910362A14738C65E.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/XR/R1ZU5TGPYT84X4YT883IGC.uasset'
+[2026.04.01-14.39.19:969][ 29]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/3K/67C7TVWY06647PX0M7FPLQ
+[2026.04.01-14.39.19:969][ 29]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/67C7TVWY06647PX0M7FPLQA4C741944D1507A4949852BE7BE61B41.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/3K/67C7TVWY06647PX0M7FPLQ.uasset'
+[2026.04.01-14.39.19:974][ 29]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/C/CM/0WWTALYT3WHN3ZQFWP8VBR
+[2026.04.01-14.39.19:974][ 29]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/0WWTALYT3WHN3ZQFWP8VBR9152AE8B4103E8E85220FF91F7467FB3.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/C/CM/0WWTALYT3WHN3ZQFWP8VBR.uasset'
+[2026.04.01-14.39.19:980][ 29]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/E/HE/C3FCDR3NNYQ1Y0OI1L0QHR
+[2026.04.01-14.39.19:980][ 29]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/C3FCDR3NNYQ1Y0OI1L0QHRB8D3FE4448D3EAD718D52B9EA7575F3B.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/E/HE/C3FCDR3NNYQ1Y0OI1L0QHR.uasset'
+[2026.04.01-14.39.19:987][ 29]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/FU/2N0HSQT31X8H1WZ6CX47O6
+[2026.04.01-14.39.19:987][ 29]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/2N0HSQT31X8H1WZ6CX47O6252BD4774917D9191D3C6BA5ED9C2587.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/FU/2N0HSQT31X8H1WZ6CX47O6.uasset'
+[2026.04.01-14.39.19:988][ 29]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/_GENERATED/esteve21/Box_14CD93A4] ([1] browsable assets)...
+[2026.04.01-14.39.20:137][ 29]LogPSOHitching: Encountered 650 PSO creation hitches so far (334 graphics, 316 compute). 0 of them were precached.
+[2026.04.01-14.39.20:244][ 29]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/FirstPerson/_GENERATED/esteve21/Box_14CD93A4.Box_14CD93A4]
+[2026.04.01-14.39.20:244][ 29]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/_GENERATED/esteve21/Box_14CD93A4]
+[2026.04.01-14.39.20:254][ 29]LogSavePackage: Moving output files for package: /Game/FirstPerson/_GENERATED/esteve21/Box_14CD93A4
+[2026.04.01-14.39.20:254][ 29]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/Box_14CD93A4784DCE634F36C53F94B604AAF43C2DB1.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/FirstPerson/_GENERATED/esteve21/Box_14CD93A4.uasset'
+[2026.04.01-14.39.20:261][ 29]LogFileHelpers: InternalPromptForCheckoutAndSave took 426.011 ms (total: 2.42 sec)
+[2026.04.01-14.39.20:318][ 29]LogContentValidation: Display: Starting to validate 7 assets
+[2026.04.01-14.39.20:318][ 29]LogContentValidation: Enabled validators:
+[2026.04.01-14.39.20:318][ 29]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.01-14.39.20:318][ 29]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.01-14.39.20:318][ 29]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.01-14.39.20:318][ 29]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.01-14.39.20:318][ 29]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.01-14.39.20:318][ 29]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.01-14.39.20:318][ 29]AssetCheck: /Game/FirstPerson/Lvl_FirstPerson Validating asset
+[2026.04.01-14.39.20:318][ 29]AssetCheck: /Game/FirstPerson/_GENERATED/esteve21/Box_14CD93A4 Validating asset
+[2026.04.01-14.39.20:342][ 29]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/SourceControl/UncontrolledChangelists.json
