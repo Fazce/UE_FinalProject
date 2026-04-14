@@ -1,3 +1,29 @@
+# Unreal Engine auto-generated folders
+Intermediate/
+Saved/
+DerivedDataCache/
+Binaries/
+Build/WindowsNoEditor/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Visual Studio / Rider / IDE junk
+.vscode/
+.vs/
+*.sln
+*.suo
+*.user
+*.opensdf
+*.sdf
+*.cache
+*.pdb
+
+# OS junk
+.DS_Store
+Thumbs.db
+
 # Visual Studio 2015 user specific files
 .vs/
 
