@@ -1267,3 +1267,479 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.04.20-14.06.57:864][769]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=2
 [2026.04.20-14.06.57:872][769]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
 [2026.04.20-14.06.57:906][771]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2026.04.20-14.08.27:438][542]LogDerivedDataCache: C:/Users/esteve21/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.04.20-14.09.16:717][582]Cmd: EDIT COPY
+[2026.04.20-14.09.17:071][616]Cmd: EDIT PASTE
+[2026.04.20-14.09.33:097][269]LogShaderCompilers: Display: ================================================
+[2026.04.20-14.09.33:097][269]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.04.20-14.09.33:097][269]LogShaderCompilers: Display: Total job queries 441, among them cache hits 42 (9.52%), DDC hits 330 (74.83%), Duplicates 66 (14.97%)
+[2026.04.20-14.09.33:097][269]LogShaderCompilers: Display: Tracking 333 distinct input hashes that result in 242 distinct outputs (72.67%)
+[2026.04.20-14.09.33:097][269]LogShaderCompilers: Display: RAM used: 3.32 MiB of 1.60 GiB budget. Usage: 0.20%
+[2026.04.20-14.09.33:097][269]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.04.20-14.09.33:097][269]LogShaderCompilers: Display: Shaders Compiled: 3
+[2026.04.20-14.09.33:097][269]LogShaderCompilers: Display: Jobs assigned 3, completed 3 (100%)
+[2026.04.20-14.09.33:097][269]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.06 s
+[2026.04.20-14.09.33:097][269]LogShaderCompilers: Display: Job execution time: average 0.63 s, max 0.63 s
+[2026.04.20-14.09.33:097][269]LogShaderCompilers: Display: Job life time (pending + execution): average 0.69 s, max 0.69
+[2026.04.20-14.09.33:097][269]LogShaderCompilers: Display: Shader code size: total 31.781 KiB, numShaders 3, average 10.594 KiB, min 10.594 KiB, max 10.594 KiB
+[2026.04.20-14.09.33:097][269]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.69 s
+[2026.04.20-14.09.33:097][269]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.02%
+[2026.04.20-14.09.33:097][269]LogShaderCompilers: Display: Jobs were issued in 3 batches (only local compilation was used), average 1.00 jobs/batch
+[2026.04.20-14.09.33:097][269]LogShaderCompilers: Display: Average processing rate: 4.35 jobs/sec
+[2026.04.20-14.09.33:097][269]LogShaderCompilers: Display: Total thread time: 0.964 s
+[2026.04.20-14.09.33:097][269]LogShaderCompilers: Display: Total thread preprocess time: 5.487 s
+[2026.04.20-14.09.33:097][269]LogShaderCompilers: Display: Percentage time preprocessing: 569.15%
+[2026.04.20-14.09.33:097][269]LogShaderCompilers: Display: Effective parallelization: 1.40 (times faster than compiling all shaders on one thread). Compare with number of workers: 12 - 0.116417
+[2026.04.20-14.09.33:097][269]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.04.20-14.09.33:097][269]LogShaderCompilers: Display:                        FRayTracingDynamicGeometryConverterCS (compiled    3 times, average 0.32 sec, max 0.32 sec, min 0.32 sec)
+[2026.04.20-14.09.33:097][269]LogShaderCompilers: Display:                                      FLandscapeGrassWeightPS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.04.20-14.09.33:097][269]LogShaderCompilers: Display:                                                 FLumenCardPS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.04.20-14.09.33:097][269]LogShaderCompilers: Display:                                        FCloudRenderViewPS011 (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.04.20-14.09.33:097][269]LogShaderCompilers: Display:                                             FDebugViewModeVS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.04.20-14.09.33:097][269]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.04.20-14.09.33:097][269]LogShaderCompilers: Display:                        FRayTracingDynamicGeometryConverterCS - 100.00% of total time (compiled    3 times, average 0.32 sec, max 0.32 sec, min 0.32 sec)
+[2026.04.20-14.09.33:098][269]LogShaderCompilers: Display:                                                 FLumenCardPS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.04.20-14.09.33:098][269]LogShaderCompilers: Display:                                        FCloudRenderViewPS011 - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.04.20-14.09.33:098][269]LogShaderCompilers: Display:                                             FDebugViewModeVS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.04.20-14.09.33:098][269]LogShaderCompilers: Display:                                      FLandscapeGrassWeightVS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.04.20-14.09.33:098][269]LogShaderCompilers: Display: === Material stats ===
+[2026.04.20-14.09.33:098][269]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.04.20-14.09.33:098][269]LogShaderCompilers: Display: Materials Translated:    146
+[2026.04.20-14.09.33:098][269]LogShaderCompilers: Display: Material Total Translate Time: 0.12 s
+[2026.04.20-14.09.33:098][269]LogShaderCompilers: Display: Material Translation Only: 0.03 s (25%)
+[2026.04.20-14.09.33:098][269]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2026.04.20-14.09.33:098][269]LogShaderCompilers: Display: Material Cache Hits: 28 (19%)
+[2026.04.20-14.09.33:098][269]LogShaderCompilers: Display: ================================================
+[2026.04.20-14.10.10:994][462]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_0
+[2026.04.20-14.11.27:407][580]Cmd: DELETE
+[2026.04.20-14.11.27:407][580]Cmd: ACTOR DELETE
+[2026.04.20-14.11.27:409][580]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.04.20-14.11.27:435][580]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2026.04.20-14.11.27:439][580]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2026.04.20-14.11.53:121][113]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 323.043427
+[2026.04.20-14.11.53:245][120]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.20-14.11.53:245][120]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 323.157074, Update Interval: 314.376038
+[2026.04.20-14.14.39:278][492]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2026.04.20-14.16.02:512][ 29]Cmd: DELETE
+[2026.04.20-14.16.02:512][ 29]Cmd: ACTOR DELETE
+[2026.04.20-14.16.02:515][ 29]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.04.20-14.16.02:546][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2026.04.20-14.16.02:549][ 29]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2026.04.20-14.17.08:515][962]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2026.04.20-14.17.10:927][214]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 640.848999
+[2026.04.20-14.17.11:026][224]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.20-14.17.11:026][224]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 640.937927, Update Interval: 347.759033
+[2026.04.20-14.19.21:278][964]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2026.04.20-14.19.21:285][964]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.20-14.19.21:347][964]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2026.04.20-14.19.21:360][964]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2026.04.20-14.19.21:376][964]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2026.04.20-14.19.21:383][964]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/C/CM/0WWTALYT3WHN3ZQFWP8VBR
+[2026.04.20-14.19.21:384][964]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/0WWTALYT3WHN3ZQFWP8VBR7BF406CC4C802F60A94903811DECE79B.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/C/CM/0WWTALYT3WHN3ZQFWP8VBR.uasset'
+[2026.04.20-14.19.21:389][964]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/TP/P5G93PIJG38DD6QGX1EDYY
+[2026.04.20-14.19.21:389][964]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/P5G93PIJG38DD6QGX1EDYY01404571497296A4F97BF5B17D01077E.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/TP/P5G93PIJG38DD6QGX1EDYY.uasset'
+[2026.04.20-14.19.21:395][964]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/9W/5NVELH090M2AK5XI2LDVAN
+[2026.04.20-14.19.21:395][964]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/5NVELH090M2AK5XI2LDVAN09FEEBC546BAB1FEED6538BE82FFD900.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/9W/5NVELH090M2AK5XI2LDVAN.uasset'
+[2026.04.20-14.19.21:400][964]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/GP/VE0JHSFVV2BWKZUOK5ZISW
+[2026.04.20-14.19.21:400][964]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/VE0JHSFVV2BWKZUOK5ZISWCFEC42CA49DF0B21E16096B534919838.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/GP/VE0JHSFVV2BWKZUOK5ZISW.uasset'
+[2026.04.20-14.19.21:405][964]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/MB/T4OOHU10ME8VEA21TCWVU3
+[2026.04.20-14.19.21:406][964]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/T4OOHU10ME8VEA21TCWVU3E624FC2A428455B3C2A1118EDE6E9073.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/MB/T4OOHU10ME8VEA21TCWVU3.uasset'
+[2026.04.20-14.19.21:411][964]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/4/Z5/OJW7P14F6EKRD0SCLRKKSH
+[2026.04.20-14.19.21:411][964]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/OJW7P14F6EKRD0SCLRKKSHDFAA7D5C4320E6254463068BB0F98950.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/4/Z5/OJW7P14F6EKRD0SCLRKKSH.uasset'
+[2026.04.20-14.19.21:416][964]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/09/VI97XZ4ADD8AVBQQ4ZHH43
+[2026.04.20-14.19.21:416][964]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/VI97XZ4ADD8AVBQQ4ZHH43416A7AD64F36F72903B24198336CA289.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/09/VI97XZ4ADD8AVBQQ4ZHH43.uasset'
+[2026.04.20-14.19.21:421][964]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/8/V2/CWO2TUO0VQF7JAAC0GO1MM
+[2026.04.20-14.19.21:421][964]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/CWO2TUO0VQF7JAAC0GO1MM3F662AB5486E9D33DBB5E9B623F0ECC9.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/8/V2/CWO2TUO0VQF7JAAC0GO1MM.uasset'
+[2026.04.20-14.19.21:427][964]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/G1/S28JND4EG95S0RHSLLA2F4
+[2026.04.20-14.19.21:427][964]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/S28JND4EG95S0RHSLLA2F4E9112F334D03ED5D8FDE26901DC5C0C5.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/G1/S28JND4EG95S0RHSLLA2F4.uasset'
+[2026.04.20-14.19.21:432][964]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/S9/HUHNVMAO4W8F5YFHVWNY5G
+[2026.04.20-14.19.21:433][964]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/HUHNVMAO4W8F5YFHVWNY5G6A96E011496DB1A9DFFC3AA113D70A11.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/S9/HUHNVMAO4W8F5YFHVWNY5G.uasset'
+[2026.04.20-14.19.21:438][964]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/Z7/H470VNT46B1V2FMKXIM65O
+[2026.04.20-14.19.21:439][964]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/H470VNT46B1V2FMKXIM65OFEF59AB04389AAAB0EA089BEB33BFBC7.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/Z7/H470VNT46B1V2FMKXIM65O.uasset'
+[2026.04.20-14.19.21:443][964]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/B/8R/BAI1JUYKW64UQ9SJKY86GT
+[2026.04.20-14.19.21:444][964]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/BAI1JUYKW64UQ9SJKY86GTA75AAFF1429B0B37CD0712A4F1E613F6.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/B/8R/BAI1JUYKW64UQ9SJKY86GT.uasset'
+[2026.04.20-14.19.21:449][964]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/B/RO/LEMKQY1L4T56NIF5KQNL88
+[2026.04.20-14.19.21:449][964]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/LEMKQY1L4T56NIF5KQNL884BF09A0345C125A6AA9AAFA8C62962EB.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/B/RO/LEMKQY1L4T56NIF5KQNL88.uasset'
+[2026.04.20-14.19.21:460][964]LogFileHelpers: InternalPromptForCheckoutAndSave took 175.455 ms
+[2026.04.20-14.19.21:497][964]LogContentValidation: Display: Starting to validate 13 assets
+[2026.04.20-14.19.21:497][964]LogContentValidation: Enabled validators:
+[2026.04.20-14.19.21:497][964]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.20-14.19.21:497][964]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.20-14.19.21:497][964]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.20-14.19.21:497][964]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.20-14.19.21:497][964]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.20-14.19.21:497][964]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.20-14.19.21:497][964]AssetCheck: /Game/FirstPerson/Lvl_FirstPerson Validating asset
+[2026.04.20-14.21.12:815][441]Cmd: DELETE
+[2026.04.20-14.21.12:815][441]Cmd: ACTOR DELETE
+[2026.04.20-14.21.12:817][441]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.04.20-14.21.12:849][441]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2026.04.20-14.21.12:851][441]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2026.04.20-14.21.13:744][530]Cmd: DELETE
+[2026.04.20-14.21.13:744][530]Cmd: ACTOR DELETE
+[2026.04.20-14.21.13:745][530]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.04.20-14.21.13:764][530]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2026.04.20-14.21.13:768][530]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2026.04.20-14.21.14:689][621]Cmd: DELETE
+[2026.04.20-14.21.14:689][621]Cmd: ACTOR DELETE
+[2026.04.20-14.21.14:691][621]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.04.20-14.21.14:715][621]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2026.04.20-14.21.14:716][621]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2026.04.20-14.21.24:868][705]Cmd: DELETE
+[2026.04.20-14.21.24:868][705]Cmd: ACTOR DELETE
+[2026.04.20-14.21.24:870][705]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.04.20-14.21.24:893][705]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2026.04.20-14.21.24:896][705]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2026.04.20-14.21.32:965][495]Cmd: DELETE
+[2026.04.20-14.21.32:965][495]Cmd: ACTOR DELETE
+[2026.04.20-14.21.32:967][495]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.04.20-14.21.32:985][495]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2026.04.20-14.21.32:987][495]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2026.04.20-14.21.33:125][511]LogShaderCompilers: Display: ================================================
+[2026.04.20-14.21.33:125][511]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.04.20-14.21.33:125][511]LogShaderCompilers: Display: Total job queries 466, among them cache hits 55 (11.80%), DDC hits 336 (72.10%), Duplicates 67 (14.38%)
+[2026.04.20-14.21.33:125][511]LogShaderCompilers: Display: Tracking 344 distinct input hashes that result in 252 distinct outputs (73.26%)
+[2026.04.20-14.21.33:125][511]LogShaderCompilers: Display: RAM used: 3.38 MiB of 1.60 GiB budget. Usage: 0.21%
+[2026.04.20-14.21.33:125][511]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.04.20-14.21.33:125][511]LogShaderCompilers: Display: Shaders Compiled: 8
+[2026.04.20-14.21.33:125][511]LogShaderCompilers: Display: Jobs assigned 8, completed 8 (100%)
+[2026.04.20-14.21.33:125][511]LogShaderCompilers: Display: Average time worker was idle: 777.69 s
+[2026.04.20-14.21.33:125][511]LogShaderCompilers: Display: Time job spent in pending queue: average 0.07 s, longest 0.09 s
+[2026.04.20-14.21.33:125][511]LogShaderCompilers: Display: Job execution time: average 0.91 s, max 1.14 s
+[2026.04.20-14.21.33:125][511]LogShaderCompilers: Display: Job life time (pending + execution): average 0.98 s, max 1.23
+[2026.04.20-14.21.33:125][511]LogShaderCompilers: Display: Shader code size: total 66.469 KiB, numShaders 8, average 8.309 KiB, min 5.562 KiB, max 10.594 KiB
+[2026.04.20-14.21.33:125][511]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.92 s
+[2026.04.20-14.21.33:125][511]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.02%
+[2026.04.20-14.21.33:125][511]LogShaderCompilers: Display: Jobs were issued in 8 batches (only local compilation was used), average 1.00 jobs/batch
+[2026.04.20-14.21.33:125][511]LogShaderCompilers: Display: Average processing rate: 4.17 jobs/sec
+[2026.04.20-14.21.33:125][511]LogShaderCompilers: Display: Total thread time: 2.363 s
+[2026.04.20-14.21.33:125][511]LogShaderCompilers: Display: Total thread preprocess time: 5.736 s
+[2026.04.20-14.21.33:125][511]LogShaderCompilers: Display: Percentage time preprocessing: 242.70%
+[2026.04.20-14.21.33:125][511]LogShaderCompilers: Display: Effective parallelization: 1.23 (times faster than compiling all shaders on one thread). Compare with number of workers: 12 - 0.102549
+[2026.04.20-14.21.33:125][511]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.04.20-14.21.33:125][511]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    2 times, average 0.34 sec, max 0.34 sec, min 0.33 sec)
+[2026.04.20-14.21.33:125][511]LogShaderCompilers: Display:                        FRayTracingDynamicGeometryConverterCS (compiled    3 times, average 0.32 sec, max 0.32 sec, min 0.32 sec)
+[2026.04.20-14.21.33:125][511]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    2 times, average 0.24 sec, max 0.25 sec, min 0.24 sec)
+[2026.04.20-14.21.33:125][511]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    1 times, average 0.24 sec, max 0.24 sec, min 0.24 sec)
+[2026.04.20-14.21.33:125][511]LogShaderCompilers: Display:                                             FDebugViewModeVS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.04.20-14.21.33:125][511]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.04.20-14.21.33:125][511]LogShaderCompilers: Display:                        FRayTracingDynamicGeometryConverterCS - 40.79% of total time (compiled    3 times, average 0.32 sec, max 0.32 sec, min 0.32 sec)
+[2026.04.20-14.21.33:125][511]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 28.37% of total time (compiled    2 times, average 0.34 sec, max 0.34 sec, min 0.33 sec)
+[2026.04.20-14.21.33:125][511]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 20.66% of total time (compiled    2 times, average 0.24 sec, max 0.25 sec, min 0.24 sec)
+[2026.04.20-14.21.33:125][511]LogShaderCompilers: Display:                                                  FHitProxyVS - 10.18% of total time (compiled    1 times, average 0.24 sec, max 0.24 sec, min 0.24 sec)
+[2026.04.20-14.21.33:125][511]LogShaderCompilers: Display:                                      FLandscapeGrassWeightPS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.04.20-14.21.33:125][511]LogShaderCompilers: Display: === Material stats ===
+[2026.04.20-14.21.33:125][511]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.04.20-14.21.33:125][511]LogShaderCompilers: Display: Materials Translated:    146
+[2026.04.20-14.21.33:125][511]LogShaderCompilers: Display: Material Total Translate Time: 0.12 s
+[2026.04.20-14.21.33:125][511]LogShaderCompilers: Display: Material Translation Only: 0.03 s (25%)
+[2026.04.20-14.21.33:125][511]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2026.04.20-14.21.33:125][511]LogShaderCompilers: Display: Material Cache Hits: 28 (19%)
+[2026.04.20-14.21.33:125][511]LogShaderCompilers: Display: ================================================
+[2026.04.20-14.21.34:000][599]Cmd: DELETE
+[2026.04.20-14.21.34:000][599]Cmd: ACTOR DELETE
+[2026.04.20-14.21.34:002][599]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.04.20-14.21.34:018][599]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2026.04.20-14.21.34:020][599]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2026.04.20-14.23.03:110][726]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 993.029480
+[2026.04.20-14.23.03:185][734]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.20-14.23.03:185][734]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 993.095215, Update Interval: 354.440735
+[2026.04.20-14.24.40:513][856]Cmd: DELETE
+[2026.04.20-14.24.40:513][856]Cmd: ACTOR DELETE
+[2026.04.20-14.24.40:515][856]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.04.20-14.24.40:533][856]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2026.04.20-14.24.40:536][856]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2026.04.20-14.29.06:230][181]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1356.140503
+[2026.04.20-14.29.06:304][189]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.20-14.29.06:305][189]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1356.205566, Update Interval: 357.451111
+[2026.04.20-14.29.58:193][493]Cmd: EDIT COPY
+[2026.04.20-14.29.58:497][525]Cmd: EDIT PASTE
+[2026.04.20-14.30.08:210][500]Cmd: EDIT COPY
+[2026.04.20-14.30.08:562][535]Cmd: EDIT PASTE
+[2026.04.20-14.32.17:489][638]Cmd: DELETE
+[2026.04.20-14.32.17:489][638]Cmd: ACTOR DELETE
+[2026.04.20-14.32.17:492][638]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.04.20-14.32.17:511][638]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2026.04.20-14.32.17:514][638]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2026.04.20-14.32.21:142][ 14]Cmd: EDIT COPY
+[2026.04.20-14.32.21:553][ 54]Cmd: EDIT PASTE
+[2026.04.20-14.32.38:277][748]Cmd: EDIT COPY
+[2026.04.20-14.32.38:494][768]Cmd: EDIT PASTE
+[2026.04.20-14.33.56:156][816]Cmd: EDIT COPY
+[2026.04.20-14.33.56:367][836]Cmd: EDIT PASTE
+[2026.04.20-14.34.11:118][321]Cmd: EDIT COPY
+[2026.04.20-14.34.11:344][342]Cmd: EDIT PASTE
+[2026.04.20-14.35.21:154][351]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1731.094604
+[2026.04.20-14.35.21:249][361]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.20-14.35.21:249][361]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1731.179688, Update Interval: 353.409821
+[2026.04.20-14.38.31:345][647]Cmd: DELETE
+[2026.04.20-14.38.31:345][647]Cmd: ACTOR DELETE
+[2026.04.20-14.38.31:349][647]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.04.20-14.38.31:371][647]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2026.04.20-14.38.31:373][647]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2026.04.20-14.38.32:351][747]Cmd: DELETE
+[2026.04.20-14.38.32:351][747]Cmd: ACTOR DELETE
+[2026.04.20-14.38.32:354][747]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.04.20-14.38.32:373][747]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2026.04.20-14.38.32:374][747]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2026.04.20-14.38.58:120][303]Cmd: TRANSACTION UNDO
+[2026.04.20-14.38.58:120][303]LogEditorTransaction: Undo Move Elements
+[2026.04.20-14.39.30:384][453]Cmd: EDIT COPY
+[2026.04.20-14.39.30:648][478]Cmd: EDIT PASTE
+[2026.04.20-14.39.38:057][204]Cmd: EDIT COPY
+[2026.04.20-14.39.38:367][234]Cmd: EDIT PASTE
+[2026.04.20-14.41.06:159][103]Cmd: EDIT COPY
+[2026.04.20-14.41.06:370][123]Cmd: EDIT PASTE
+[2026.04.20-14.41.53:362][915]Cmd: DELETE
+[2026.04.20-14.41.53:362][915]Cmd: ACTOR DELETE
+[2026.04.20-14.41.53:365][915]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.04.20-14.41.53:381][915]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2026.04.20-14.41.53:383][915]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2026.04.20-14.41.55:770][178]Cmd: TRANSACTION UNDO
+[2026.04.20-14.41.55:770][178]LogEditorTransaction: Undo Delete Elements
+[2026.04.20-14.42.04:865][ 67]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2134.793213
+[2026.04.20-14.42.04:930][ 74]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.20-14.42.04:930][ 74]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2134.849121, Update Interval: 317.340607
+[2026.04.20-14.42.22:687][877]Cmd: DELETE
+[2026.04.20-14.42.22:687][877]Cmd: ACTOR DELETE
+[2026.04.20-14.42.22:688][877]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.04.20-14.42.22:706][877]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2026.04.20-14.42.22:709][877]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2026.04.20-14.42.25:593][194]Cmd: DELETE
+[2026.04.20-14.42.25:593][194]Cmd: ACTOR DELETE
+[2026.04.20-14.42.25:596][194]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.04.20-14.42.25:617][194]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2026.04.20-14.42.25:619][194]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2026.04.20-14.42.43:658][ 47]Cmd: DELETE
+[2026.04.20-14.42.43:658][ 47]Cmd: ACTOR DELETE
+[2026.04.20-14.42.43:660][ 47]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.04.20-14.42.43:681][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2026.04.20-14.42.43:683][ 47]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2026.04.20-14.43.28:008][735]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2026.04.20-14.43.28:015][735]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.20-14.43.28:086][735]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2026.04.20-14.43.28:126][735]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2026.04.20-14.43.28:140][735]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2026.04.20-14.43.28:149][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/1/CC/OL2GBC68A5IIPP875HSU07
+[2026.04.20-14.43.28:149][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/OL2GBC68A5IIPP875HSU07220E6F2446B4F376256BD0B75B66341A.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/1/CC/OL2GBC68A5IIPP875HSU07.uasset'
+[2026.04.20-14.43.28:156][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/1/YM/LPIB4KJ0ECBNZQ7R0J2UEN
+[2026.04.20-14.43.28:156][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/LPIB4KJ0ECBNZQ7R0J2UEN7A8D52B344A4483DCF10FCAF8EFA7273.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/1/YM/LPIB4KJ0ECBNZQ7R0J2UEN.uasset'
+[2026.04.20-14.43.28:161][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/6/JR/076O3PV3IMY0H8UHD9NX6P
+[2026.04.20-14.43.28:161][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/076O3PV3IMY0H8UHD9NX6PB0CEFDF2463BB83AE13131AA269201A2.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/6/JR/076O3PV3IMY0H8UHD9NX6P.uasset'
+[2026.04.20-14.43.28:166][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/TP/P5G93PIJG38DD6QGX1EDYY
+[2026.04.20-14.43.28:166][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/P5G93PIJG38DD6QGX1EDYY41CC5CE541084F61F584C49D95E05A96.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/TP/P5G93PIJG38DD6QGX1EDYY.uasset'
+[2026.04.20-14.43.28:171][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/6D/2QHY53I0Z3O2FKYR2SK5V7
+[2026.04.20-14.43.28:172][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/2QHY53I0Z3O2FKYR2SK5V73BE5AD8149CDEE9F8B2A63A2F2514B8A.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/6D/2QHY53I0Z3O2FKYR2SK5V7.uasset'
+[2026.04.20-14.43.28:178][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/E9/1WDA8B4X52ID5RIHYXG64J
+[2026.04.20-14.43.28:178][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/1WDA8B4X52ID5RIHYXG64JADDADE5B4990B68A5D00BE82528239C5.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/E9/1WDA8B4X52ID5RIHYXG64J.uasset'
+[2026.04.20-14.43.28:182][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/NX/N49O4N4GTGD6CIEQZ6VLT1
+[2026.04.20-14.43.28:183][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/N49O4N4GTGD6CIEQZ6VLT1234086AD4FAFD3F7DC9C0597E41FAAF2.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/NX/N49O4N4GTGD6CIEQZ6VLT1.uasset'
+[2026.04.20-14.43.28:188][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/ZL/QBYZ98OSJ4YQ3XFYKAPVIA
+[2026.04.20-14.43.28:189][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/QBYZ98OSJ4YQ3XFYKAPVIADBF82D9541AD8EC5B078C7B644B2244D.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/ZL/QBYZ98OSJ4YQ3XFYKAPVIA.uasset'
+[2026.04.20-14.43.28:194][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/1/32/6RTVGK1F76E45MRL734209
+[2026.04.20-14.43.28:194][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/6RTVGK1F76E45MRL7342099D20C3854BD81C0AABF8FE88D565C0F1.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/1/32/6RTVGK1F76E45MRL734209.uasset'
+[2026.04.20-14.43.28:199][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/1/CD/7NSGVK8N1P5X7QULBK0E05
+[2026.04.20-14.43.28:199][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/7NSGVK8N1P5X7QULBK0E05E42240B94A67DE8CB189308BF6E3538C.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/1/CD/7NSGVK8N1P5X7QULBK0E05.uasset'
+[2026.04.20-14.43.28:204][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/1/KN/NUV5W5LA6RR85P99SJS667
+[2026.04.20-14.43.28:206][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/NUV5W5LA6RR85P99SJS667F7325AFF451CB94A860DB283196FA1BD.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/1/KN/NUV5W5LA6RR85P99SJS667.uasset'
+[2026.04.20-14.43.28:211][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/7G/KOU7SBS4SZU7OY5UEIFM2F
+[2026.04.20-14.43.28:211][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/KOU7SBS4SZU7OY5UEIFM2FB19178C24A7BECEE2A9EEE8BE482AED3.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/7G/KOU7SBS4SZU7OY5UEIFM2F.uasset'
+[2026.04.20-14.43.28:217][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/87/7OYVG5AADXBN5M442ANHY8
+[2026.04.20-14.43.28:217][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/7OYVG5AADXBN5M442ANHY8D2CE7F734E31D549CFEE9CA9E4BBFC4F.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/87/7OYVG5AADXBN5M442ANHY8.uasset'
+[2026.04.20-14.43.28:222][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/9W/5NVELH090M2AK5XI2LDVAN
+[2026.04.20-14.43.28:222][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/5NVELH090M2AK5XI2LDVANF3303ADE458BFB52101E759B33F85757.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/9W/5NVELH090M2AK5XI2LDVAN.uasset'
+[2026.04.20-14.43.28:227][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/CR/L362AIUGBKE5BBROH4BTRZ
+[2026.04.20-14.43.28:227][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/L362AIUGBKE5BBROH4BTRZD5F914514AE055B32E91FB8DBE53E981.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/CR/L362AIUGBKE5BBROH4BTRZ.uasset'
+[2026.04.20-14.43.28:233][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/PV/BVCW2YX9MF0VEC4LTYH744
+[2026.04.20-14.43.28:233][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/BVCW2YX9MF0VEC4LTYH74497D1B8064D19B212320A7EB8ED85A5E5.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/PV/BVCW2YX9MF0VEC4LTYH744.uasset'
+[2026.04.20-14.43.28:239][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/FD/JONHIL094VXAMRM4Z4BLTD
+[2026.04.20-14.43.28:239][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/JONHIL094VXAMRM4Z4BLTDC782E47D49C83F6DB9F228958CB3E337.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/FD/JONHIL094VXAMRM4Z4BLTD.uasset'
+[2026.04.20-14.43.28:244][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/GP/VE0JHSFVV2BWKZUOK5ZISW
+[2026.04.20-14.43.28:245][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/VE0JHSFVV2BWKZUOK5ZISW153ABCF94E541174EE9E0691A1C1B5C6.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/GP/VE0JHSFVV2BWKZUOK5ZISW.uasset'
+[2026.04.20-14.43.28:249][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/LG/IP40BESDS5T54DEQQPTH0M
+[2026.04.20-14.43.28:250][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/IP40BESDS5T54DEQQPTH0MD58BF51642F8CB1DAFC0218415EAD9E3.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/LG/IP40BESDS5T54DEQQPTH0M.uasset'
+[2026.04.20-14.43.28:256][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/QN/ME543QJYMSSLRJ2U8FAGWS
+[2026.04.20-14.43.28:256][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/ME543QJYMSSLRJ2U8FAGWS3C29D9704B95733F3E7891B44BFECD6D.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/QN/ME543QJYMSSLRJ2U8FAGWS.uasset'
+[2026.04.20-14.43.28:261][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/V5/ZG7YZWDZJMM6ILJX4M7DSM
+[2026.04.20-14.43.28:261][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/ZG7YZWDZJMM6ILJX4M7DSM2DB554B24F291B7A31589DBBFC1AF6A5.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/V5/ZG7YZWDZJMM6ILJX4M7DSM.uasset'
+[2026.04.20-14.43.28:266][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/WO/J9OGI6KC5Y1OI0QZCU2C0X
+[2026.04.20-14.43.28:266][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/J9OGI6KC5Y1OI0QZCU2C0X3A98D07B4960F449A84FF1A6DF9ED810.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/WO/J9OGI6KC5Y1OI0QZCU2C0X.uasset'
+[2026.04.20-14.43.28:274][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/WS/UCL9ZINGBH9DD5P3A656K2
+[2026.04.20-14.43.28:275][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/UCL9ZINGBH9DD5P3A656K288717C344BD27ABD869A1EAE65A72FAD.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/WS/UCL9ZINGBH9DD5P3A656K2.uasset'
+[2026.04.20-14.43.28:280][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/4/H4/C06GE56V9VGKW2BKZ17C1E
+[2026.04.20-14.43.28:281][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/C06GE56V9VGKW2BKZ17C1E1AB5F02547A3B18723588090D01C36AC.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/4/H4/C06GE56V9VGKW2BKZ17C1E.uasset'
+[2026.04.20-14.43.28:285][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/4/NT/WKOAFBI1A64MIWUZZJU68I
+[2026.04.20-14.43.28:286][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/WKOAFBI1A64MIWUZZJU68IF37F4AC34A0392DB83DD0DA668C405BC.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/4/NT/WKOAFBI1A64MIWUZZJU68I.uasset'
+[2026.04.20-14.43.28:291][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/4/VJ/D9JBW7WFUKRPXI3OUW8934
+[2026.04.20-14.43.28:291][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/D9JBW7WFUKRPXI3OUW8934725CA8D14AD38EB668D985A32343E986.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/4/VJ/D9JBW7WFUKRPXI3OUW8934.uasset'
+[2026.04.20-14.43.28:296][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/4/Y3/21CO95CFGXXGSRUSSZQSUB
+[2026.04.20-14.43.28:296][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/21CO95CFGXXGSRUSSZQSUBE71AB945449F4245488A9490E792D3A7.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/4/Y3/21CO95CFGXXGSRUSSZQSUB.uasset'
+[2026.04.20-14.43.28:302][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/09/VI97XZ4ADD8AVBQQ4ZHH43
+[2026.04.20-14.43.28:302][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/VI97XZ4ADD8AVBQQ4ZHH437FB963A24C246ACEF3F612824F88B22D.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/09/VI97XZ4ADD8AVBQQ4ZHH43.uasset'
+[2026.04.20-14.43.28:307][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/9S/0ETT7IWTIG1CSZOLZ77L0Q
+[2026.04.20-14.43.28:307][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/0ETT7IWTIG1CSZOLZ77L0QA38470BD4DF0C6789231D291FC0AFA31.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/9S/0ETT7IWTIG1CSZOLZ77L0Q.uasset'
+[2026.04.20-14.43.28:313][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/A7/I43YE9XU1MDPWH86FWMDAI
+[2026.04.20-14.43.28:313][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/I43YE9XU1MDPWH86FWMDAI818C87FA4B9FF44B396786B039BBE5BB.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/A7/I43YE9XU1MDPWH86FWMDAI.uasset'
+[2026.04.20-14.43.28:319][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/J4/9NF9TFK7IT8KIQ0F23MLHZ
+[2026.04.20-14.43.28:319][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/9NF9TFK7IT8KIQ0F23MLHZADB5171546E1B47686FFC5A17262F84B.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/J4/9NF9TFK7IT8KIQ0F23MLHZ.uasset'
+[2026.04.20-14.43.28:324][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/LL/7K6AK1PGE6GJ89665TJ67R
+[2026.04.20-14.43.28:324][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/7K6AK1PGE6GJ89665TJ67R4BAF9C844822B4903D9626BB2C35BFE5.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/LL/7K6AK1PGE6GJ89665TJ67R.uasset'
+[2026.04.20-14.43.28:329][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/MY/678KVHBLZU994SZE1USN8M
+[2026.04.20-14.43.28:329][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/678KVHBLZU994SZE1USN8ME2EF87914D5BDB8DEFDDC5954AB88F2F.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/MY/678KVHBLZU994SZE1USN8M.uasset'
+[2026.04.20-14.43.28:334][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/NO/MOU2CVO33DE0SKUV18REHJ
+[2026.04.20-14.43.28:334][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/MOU2CVO33DE0SKUV18REHJ7089D5AD4AC9DE746878428FE586DCEB.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/NO/MOU2CVO33DE0SKUV18REHJ.uasset'
+[2026.04.20-14.43.28:340][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/RG/7SYKC5QEUE6EAKTYKMRSOR
+[2026.04.20-14.43.28:340][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/7SYKC5QEUE6EAKTYKMRSOR3B13CAE542E8A8A0B33452B69390E70F.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/RG/7SYKC5QEUE6EAKTYKMRSOR.uasset'
+[2026.04.20-14.43.28:344][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/S2/IAKB53ZWX1V5WMAGL4A2LK
+[2026.04.20-14.43.28:346][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/IAKB53ZWX1V5WMAGL4A2LKA791548543BC51A5D3EDFF983EBF5B69.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/S2/IAKB53ZWX1V5WMAGL4A2LK.uasset'
+[2026.04.20-14.43.28:351][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/SE/UI3SZMGTXMZMYJF4N4BD5Z
+[2026.04.20-14.43.28:351][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/UI3SZMGTXMZMYJF4N4BD5ZBDF3288A4F81699D63EF54AF76702232.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/SE/UI3SZMGTXMZMYJF4N4BD5Z.uasset'
+[2026.04.20-14.43.28:356][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/W5/I3RR4MP8LVOM4JFTN8XBWC
+[2026.04.20-14.43.28:356][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/I3RR4MP8LVOM4JFTN8XBWCEE8472B04695F015576A90BE0EED8784.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/W5/I3RR4MP8LVOM4JFTN8XBWC.uasset'
+[2026.04.20-14.43.28:361][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/W9/IEA2PN569RN2DHCWC04KIV
+[2026.04.20-14.43.28:361][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/IEA2PN569RN2DHCWC04KIV1FEC307440DDFEF30E110B93611D2CB2.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/W9/IEA2PN569RN2DHCWC04KIV.uasset'
+[2026.04.20-14.43.28:366][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/WC/8XF95IE8NVC42SO8UNJ6FT
+[2026.04.20-14.43.28:366][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/8XF95IE8NVC42SO8UNJ6FT986A94FB419416A417ABC48B2AA9B297.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/WC/8XF95IE8NVC42SO8UNJ6FT.uasset'
+[2026.04.20-14.43.28:371][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/6/1K/9WL51HMPGB47MFIYMO4JYM
+[2026.04.20-14.43.28:372][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/9WL51HMPGB47MFIYMO4JYM558033574AEE1D9303FBA1A4502C0D82.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/6/1K/9WL51HMPGB47MFIYMO4JYM.uasset'
+[2026.04.20-14.43.28:377][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/6/JM/N7CSCQXZL6DU586NUE99DD
+[2026.04.20-14.43.28:378][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/N7CSCQXZL6DU586NUE99DD9B447FF549A087F5F5F816886E034E14.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/6/JM/N7CSCQXZL6DU586NUE99DD.uasset'
+[2026.04.20-14.43.28:383][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/6/JM/PS7ZZ46VXW8BDYJH1RNI8J
+[2026.04.20-14.43.28:383][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/PS7ZZ46VXW8BDYJH1RNI8JE539539544D0D0995E6BC391145D67E2.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/6/JM/PS7ZZ46VXW8BDYJH1RNI8J.uasset'
+[2026.04.20-14.43.28:388][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/6/MX/TLZTVQ55JB8QRP9570DOBU
+[2026.04.20-14.43.28:388][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/TLZTVQ55JB8QRP9570DOBUE0C901E340FAEB30864984A9859E8018.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/6/MX/TLZTVQ55JB8QRP9570DOBU.uasset'
+[2026.04.20-14.43.28:393][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/50/WQWYV3NNX5IIHWO1UX40FF
+[2026.04.20-14.43.28:393][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/WQWYV3NNX5IIHWO1UX40FFCBB903DB49F64A1F0C54D58096E686EF.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/50/WQWYV3NNX5IIHWO1UX40FF.uasset'
+[2026.04.20-14.43.28:399][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/5A/TAJFLP4ZTQLBC6540R8EW4
+[2026.04.20-14.43.28:399][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/TAJFLP4ZTQLBC6540R8EW4A824531C43F6F8887D36C5914ECE8AF5.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/5A/TAJFLP4ZTQLBC6540R8EW4.uasset'
+[2026.04.20-14.43.28:403][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/5O/CNKAFCO1QZRPZIL2D0DGL1
+[2026.04.20-14.43.28:403][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/CNKAFCO1QZRPZIL2D0DGL13235BBD0406CC25BFD0DBCA053F6E1A2.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/5O/CNKAFCO1QZRPZIL2D0DGL1.uasset'
+[2026.04.20-14.43.28:409][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/7Q/ALPXHUBD0H7TWWE3ZIN9FN
+[2026.04.20-14.43.28:409][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/ALPXHUBD0H7TWWE3ZIN9FN41A0833C4710E8612773FF94DEA02BEA.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/7Q/ALPXHUBD0H7TWWE3ZIN9FN.uasset'
+[2026.04.20-14.43.28:414][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/H4/CBXT59H86HDHI8Z7DTJN6J
+[2026.04.20-14.43.28:414][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/CBXT59H86HDHI8Z7DTJN6J577D1BF5426A30C302C620BC116887AC.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/H4/CBXT59H86HDHI8Z7DTJN6J.uasset'
+[2026.04.20-14.43.28:419][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/H6/91GUC6MSBHFIW7ZE68SIMN
+[2026.04.20-14.43.28:419][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/91GUC6MSBHFIW7ZE68SIMN9D21BC604F2CBA1C2624BDA0F18DD925.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/H6/91GUC6MSBHFIW7ZE68SIMN.uasset'
+[2026.04.20-14.43.28:424][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/IG/Q8PVD58XDFB7LBY1U5FHLX
+[2026.04.20-14.43.28:424][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/Q8PVD58XDFB7LBY1U5FHLX4C3F990D4176F8BC418EA7859CC1041E.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/IG/Q8PVD58XDFB7LBY1U5FHLX.uasset'
+[2026.04.20-14.43.28:430][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/K5/MX2MMTQBZOQN0FS8ZRYPSE
+[2026.04.20-14.43.28:430][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/MX2MMTQBZOQN0FS8ZRYPSEF6EB5F6D45CC6E7C8DB6B1BF080CCCDF.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/K5/MX2MMTQBZOQN0FS8ZRYPSE.uasset'
+[2026.04.20-14.43.28:434][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/S4/EZJU51Z1WAPZWJH9719T7B
+[2026.04.20-14.43.28:434][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/EZJU51Z1WAPZWJH9719T7B38579F0C47EFE52CB975F9B0A6E135C8.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/S4/EZJU51Z1WAPZWJH9719T7B.uasset'
+[2026.04.20-14.43.28:440][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/W4/UNBVQOWTGA07CPGCTSMJQ6
+[2026.04.20-14.43.28:441][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/UNBVQOWTGA07CPGCTSMJQ635C0512B44700B245C193EBEE658251E.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/W4/UNBVQOWTGA07CPGCTSMJQ6.uasset'
+[2026.04.20-14.43.28:446][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/Z4/APTFI9ACE0VYG7NUOB5SPW
+[2026.04.20-14.43.28:446][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/APTFI9ACE0VYG7NUOB5SPW347D191F482B5485F0A02F8A03C7A6D0.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/7/Z4/APTFI9ACE0VYG7NUOB5SPW.uasset'
+[2026.04.20-14.43.28:450][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/8/21/YU603LIVLTO2HELHQ3ZXBU
+[2026.04.20-14.43.28:451][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/YU603LIVLTO2HELHQ3ZXBUE8877F7442EB3F99A178C5A4F50FBBBD.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/8/21/YU603LIVLTO2HELHQ3ZXBU.uasset'
+[2026.04.20-14.43.28:456][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/8/3O/NLRJHMAF64Q1SZWSTPNCTF
+[2026.04.20-14.43.28:456][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/NLRJHMAF64Q1SZWSTPNCTFCE4C40EC4FF9F00A20A3678BB411AE53.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/8/3O/NLRJHMAF64Q1SZWSTPNCTF.uasset'
+[2026.04.20-14.43.28:461][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/8/42/ZVUCXZ1GXG3T0MONZCAQMI
+[2026.04.20-14.43.28:462][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/ZVUCXZ1GXG3T0MONZCAQMIC191011C40111D3D60D58688205AC2B2.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/8/42/ZVUCXZ1GXG3T0MONZCAQMI.uasset'
+[2026.04.20-14.43.28:467][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/8/GE/78RX9KSQVSSYXV9E11D8QX
+[2026.04.20-14.43.28:467][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/78RX9KSQVSSYXV9E11D8QX21219E6249F5BBCDC4877983FC028B2D.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/8/GE/78RX9KSQVSSYXV9E11D8QX.uasset'
+[2026.04.20-14.43.28:474][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/8/MF/VMI1BUQGWRJVFMXIRDFM22
+[2026.04.20-14.43.28:474][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/VMI1BUQGWRJVFMXIRDFM22D6C9DDD440C4A3551338ECB7FE0A6258.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/8/MF/VMI1BUQGWRJVFMXIRDFM22.uasset'
+[2026.04.20-14.43.28:479][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/8/NQ/TDU7LBG8CMVRB0IUDJO10R
+[2026.04.20-14.43.28:479][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/TDU7LBG8CMVRB0IUDJO10RAD670D9641EC7B1A08A36986502EE0EA.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/8/NQ/TDU7LBG8CMVRB0IUDJO10R.uasset'
+[2026.04.20-14.43.28:484][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/BI/2GVKRLPWSUMUXOWS5VTICO
+[2026.04.20-14.43.28:484][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/2GVKRLPWSUMUXOWS5VTICOF6544B804F75603D295FC4BCF45783B9.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/BI/2GVKRLPWSUMUXOWS5VTICO.uasset'
+[2026.04.20-14.43.28:489][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/CD/EAZUHI2Q7HRJ0HBEXNVRUT
+[2026.04.20-14.43.28:489][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/EAZUHI2Q7HRJ0HBEXNVRUT7A56D1554E3130A40BF06BBE4BAC8070.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/CD/EAZUHI2Q7HRJ0HBEXNVRUT.uasset'
+[2026.04.20-14.43.28:494][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/CH/P6B3MEWQH008KREF75Z72R
+[2026.04.20-14.43.28:495][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/P6B3MEWQH008KREF75Z72RD68320B34285A73AD27FB68F0AD450B8.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/CH/P6B3MEWQH008KREF75Z72R.uasset'
+[2026.04.20-14.43.28:500][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/E7/V7KTK2JA94T19LHPWXY2GH
+[2026.04.20-14.43.28:500][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/V7KTK2JA94T19LHPWXY2GH78D255A34886CBAE892F72A1C325B0EF.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/E7/V7KTK2JA94T19LHPWXY2GH.uasset'
+[2026.04.20-14.43.28:505][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/G1/S28JND4EG95S0RHSLLA2F4
+[2026.04.20-14.43.28:506][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/S28JND4EG95S0RHSLLA2F497CB75634302DB623002BBA56DC7F577.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/G1/S28JND4EG95S0RHSLLA2F4.uasset'
+[2026.04.20-14.43.28:511][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/RD/N1GCY5AZ634D2U4QU83IYD
+[2026.04.20-14.43.28:511][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/N1GCY5AZ634D2U4QU83IYDEC5EEFB44A9BD317C74E97886D6D67F9.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/RD/N1GCY5AZ634D2U4QU83IYD.uasset'
+[2026.04.20-14.43.28:516][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/TG/G1GJKEV2GPC4UQCRZTXVW7
+[2026.04.20-14.43.28:516][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/G1GJKEV2GPC4UQCRZTXVW72AE9BF994A787B797C744E98E39FA579.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/TG/G1GJKEV2GPC4UQCRZTXVW7.uasset'
+[2026.04.20-14.43.28:521][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/Z1/546V1TNDE653Z64KD0RXX3
+[2026.04.20-14.43.28:521][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/546V1TNDE653Z64KD0RXX38DF384DE4FFFBB5C6138C3845CC7A05E.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/Z1/546V1TNDE653Z64KD0RXX3.uasset'
+[2026.04.20-14.43.28:526][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/9L/PV3VWBH7GUZE27HD3VFFT3
+[2026.04.20-14.43.28:526][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/PV3VWBH7GUZE27HD3VFFT3ECA7BF7742884162DD86FEB3C75D5072.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/9L/PV3VWBH7GUZE27HD3VFFT3.uasset'
+[2026.04.20-14.43.28:531][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/JV/F6B4TSE5DONQO97NPI6W9U
+[2026.04.20-14.43.28:531][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/F6B4TSE5DONQO97NPI6W9UCAFDBD3A45E9397A91AF28A3717D7E31.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/JV/F6B4TSE5DONQO97NPI6W9U.uasset'
+[2026.04.20-14.43.28:537][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/M1/0QSLPIGFYSNZEX0UKTUF4R
+[2026.04.20-14.43.28:537][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/0QSLPIGFYSNZEX0UKTUF4R2B368F21442713BBCDAB708FD41AAEF8.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/M1/0QSLPIGFYSNZEX0UKTUF4R.uasset'
+[2026.04.20-14.43.28:542][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/NE/RDL38Y78OKQ39EIILDJFJ0
+[2026.04.20-14.43.28:542][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/RDL38Y78OKQ39EIILDJFJ01C9F5C95491CE8A848E625837691B51C.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/NE/RDL38Y78OKQ39EIILDJFJ0.uasset'
+[2026.04.20-14.43.28:547][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/NN/WVRW1S96WOC2NVBRFJFWQV
+[2026.04.20-14.43.28:547][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/WVRW1S96WOC2NVBRFJFWQV3F3B43B7468724B8DEB941B0992E9829.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/NN/WVRW1S96WOC2NVBRFJFWQV.uasset'
+[2026.04.20-14.43.28:552][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/S4/12LU1KWWHLV33UTHQ0K767
+[2026.04.20-14.43.28:553][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/12LU1KWWHLV33UTHQ0K767AE7E407A47B1693AF4EF728579D1141D.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/A/S4/12LU1KWWHLV33UTHQ0K767.uasset'
+[2026.04.20-14.43.28:558][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/B/5Y/VKCMVEA1E8BVB0H5BAQ2ST
+[2026.04.20-14.43.28:559][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/VKCMVEA1E8BVB0H5BAQ2STE7396C884A17F4F3DB485DB5737C1E74.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/B/5Y/VKCMVEA1E8BVB0H5BAQ2ST.uasset'
+[2026.04.20-14.43.28:564][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/B/62/4TSYYP7CGJM7V99ONC63NH
+[2026.04.20-14.43.28:564][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/4TSYYP7CGJM7V99ONC63NHC30B0C324FC2018E684D64B8427B7458.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/B/62/4TSYYP7CGJM7V99ONC63NH.uasset'
+[2026.04.20-14.43.28:569][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/B/7I/ZS8958UDDE36CLFHKXQ31Z
+[2026.04.20-14.43.28:569][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/ZS8958UDDE36CLFHKXQ31Z4F35474144CC2CCABC69A296F50CA49E.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/B/7I/ZS8958UDDE36CLFHKXQ31Z.uasset'
+[2026.04.20-14.43.28:574][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/B/8M/729KPFVKQCZ46HDQNBV140
+[2026.04.20-14.43.28:575][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/729KPFVKQCZ46HDQNBV14097DC137F41B93D28C8B9FEB20F64D0F6.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/B/8M/729KPFVKQCZ46HDQNBV140.uasset'
+[2026.04.20-14.43.28:579][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/B/AH/2H7XXQ3R4VV07NUC5RYU4T
+[2026.04.20-14.43.28:579][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/2H7XXQ3R4VV07NUC5RYU4TC6A9A75647F66639671DD5A720BAC192.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/B/AH/2H7XXQ3R4VV07NUC5RYU4T.uasset'
+[2026.04.20-14.43.28:584][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/B/AL/1UP1BGPC920S0XO1VPGS2O
+[2026.04.20-14.43.28:584][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/1UP1BGPC920S0XO1VPGS2O3FD058F147852EB5243F9C98D64547F5.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/B/AL/1UP1BGPC920S0XO1VPGS2O.uasset'
+[2026.04.20-14.43.28:589][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/B/RO/LEMKQY1L4T56NIF5KQNL88
+[2026.04.20-14.43.28:590][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/LEMKQY1L4T56NIF5KQNL883C777F11467AD2B62DAB4E8F7AFC2465.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/B/RO/LEMKQY1L4T56NIF5KQNL88.uasset'
+[2026.04.20-14.43.28:594][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/C/0C/5RWQU9GDK2NMEXEE3QQVU5
+[2026.04.20-14.43.28:594][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/5RWQU9GDK2NMEXEE3QQVU5D01CE596424EEB4196A7289F44C599D1.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/C/0C/5RWQU9GDK2NMEXEE3QQVU5.uasset'
+[2026.04.20-14.43.28:600][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/C/5L/2MT20WW3UJM81LFAD76Z4G
+[2026.04.20-14.43.28:600][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/2MT20WW3UJM81LFAD76Z4GC9471B644B0CDDA0975E5CABFBCC1B96.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/C/5L/2MT20WW3UJM81LFAD76Z4G.uasset'
+[2026.04.20-14.43.28:606][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/C/CK/U7A4PXOKDSRFJJCM4OFZDA
+[2026.04.20-14.43.28:606][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/U7A4PXOKDSRFJJCM4OFZDADF0166EA4CDFFB62941DC8AED1D4DCE7.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/C/CK/U7A4PXOKDSRFJJCM4OFZDA.uasset'
+[2026.04.20-14.43.28:611][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/C/EJ/QTU15P7KB35X60ROAH2S10
+[2026.04.20-14.43.28:611][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/QTU15P7KB35X60ROAH2S10F87FBDDF49A6F2DA0F10D381B7F12039.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/C/EJ/QTU15P7KB35X60ROAH2S10.uasset'
+[2026.04.20-14.43.28:616][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/C/W2/97S5ND0OFE58N1AJBGR24P
+[2026.04.20-14.43.28:616][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/97S5ND0OFE58N1AJBGR24PDB6A9AF843243EB02EEBF7BFBBE0AEC4.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/C/W2/97S5ND0OFE58N1AJBGR24P.uasset'
+[2026.04.20-14.43.28:622][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/3I/JMFQQFFX2WKPOZQF7VJGQJ
+[2026.04.20-14.43.28:622][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/JMFQQFFX2WKPOZQF7VJGQJ3212D5094D3ED9176B82F09125237BE9.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/3I/JMFQQFFX2WKPOZQF7VJGQJ.uasset'
+[2026.04.20-14.43.28:626][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/AR/CR1CS0PIIRDAS0S1NUWK7D
+[2026.04.20-14.43.28:627][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/CR1CS0PIIRDAS0S1NUWK7D57399CCE4D4D6AF2E4C4239E1E5CD1A9.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/AR/CR1CS0PIIRDAS0S1NUWK7D.uasset'
+[2026.04.20-14.43.28:632][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/N5/C3HKKE4U5W96Z44JOA4V55
+[2026.04.20-14.43.28:632][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/C3HKKE4U5W96Z44JOA4V5588DB87A44171EAB22B0BA38CD41AF3CA.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/N5/C3HKKE4U5W96Z44JOA4V55.uasset'
+[2026.04.20-14.43.28:637][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/E/0A/EYJ4UQRN2N2YDQSNXBE88Z
+[2026.04.20-14.43.28:638][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/EYJ4UQRN2N2YDQSNXBE88Z5FFFE4FE4B712C2BC3E1C9B3C462EAD0.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/E/0A/EYJ4UQRN2N2YDQSNXBE88Z.uasset'
+[2026.04.20-14.43.28:643][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/E/FG/3OVXXSAH71CIW9SXA8VBOT
+[2026.04.20-14.43.28:643][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/3OVXXSAH71CIW9SXA8VBOT7675923645C35F44DEF902979836E6E1.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/E/FG/3OVXXSAH71CIW9SXA8VBOT.uasset'
+[2026.04.20-14.43.28:647][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/E/PQ/DR5V5V0ZDS8FWRODXHHQ62
+[2026.04.20-14.43.28:648][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/DR5V5V0ZDS8FWRODXHHQ62D437C123408FF1814702BE88C336CD3D.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/E/PQ/DR5V5V0ZDS8FWRODXHHQ62.uasset'
+[2026.04.20-14.43.28:653][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/E/R0/R8XFWSLN71XBN00AL5NJ65
+[2026.04.20-14.43.28:653][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/R8XFWSLN71XBN00AL5NJ6574AE3B3044AE59B7DBD562B91D64797A.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/E/R0/R8XFWSLN71XBN00AL5NJ65.uasset'
+[2026.04.20-14.43.28:659][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/E/W7/85HE6RG799UC0YH30N1PQJ
+[2026.04.20-14.43.28:659][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/85HE6RG799UC0YH30N1PQJ7F703F51498C56D7E930AB8D23DC9C83.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/E/W7/85HE6RG799UC0YH30N1PQJ.uasset'
+[2026.04.20-14.43.28:663][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/E/WJ/QT9XUUO9CV6O0ON31R78QH
+[2026.04.20-14.43.28:664][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/QT9XUUO9CV6O0ON31R78QH195ABB38430D10A5C7D6F0B56F39C46E.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/E/WJ/QT9XUUO9CV6O0ON31R78QH.uasset'
+[2026.04.20-14.43.28:669][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/E/YX/XNWOI9CRAA6DYUZUNOW2ZO
+[2026.04.20-14.43.28:669][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/XNWOI9CRAA6DYUZUNOW2ZO77A818724094D38E191D46831F474E41.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/E/YX/XNWOI9CRAA6DYUZUNOW2ZO.uasset'
+[2026.04.20-14.43.28:677][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/0J/RYK7A5QM3MSOJT1XZ9TI6N
+[2026.04.20-14.43.28:677][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/RYK7A5QM3MSOJT1XZ9TI6N8E1770F349D0E6C8A1BD13865E5DC6FC.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/0J/RYK7A5QM3MSOJT1XZ9TI6N.uasset'
+[2026.04.20-14.43.28:682][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/4/B9/6TMPEJ3N5P8BEQL9HY94S0
+[2026.04.20-14.43.28:682][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/6TMPEJ3N5P8BEQL9HY94S030D330034BB91C97AB9802B1C88AC933.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/4/B9/6TMPEJ3N5P8BEQL9HY94S0.uasset'
+[2026.04.20-14.43.28:687][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/0B/HWQK242KTV2P2RV019KTNP
+[2026.04.20-14.43.28:687][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/HWQK242KTV2P2RV019KTNPA6B0CDC54A447CCFD1826B9016C8A0EC.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/3/0B/HWQK242KTV2P2RV019KTNP.uasset'
+[2026.04.20-14.43.28:692][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/OX/LAE3GFRAKLYOU1CRJ07F0K
+[2026.04.20-14.43.28:692][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/LAE3GFRAKLYOU1CRJ07F0K3A1B35C14D7A23C31800109B5BED82BE.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/OX/LAE3GFRAKLYOU1CRJ07F0K.uasset'
+[2026.04.20-14.43.28:697][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/1/YY/300DIICIY153L7RVH95HJY
+[2026.04.20-14.43.28:697][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/300DIICIY153L7RVH95HJY89452DA44BAC32FD5305EC8CE4163182.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/1/YY/300DIICIY153L7RVH95HJY.uasset'
+[2026.04.20-14.43.28:702][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/1/4L/MLUH4B3IV6EQIGIEXL5ZXA
+[2026.04.20-14.43.28:702][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/MLUH4B3IV6EQIGIEXL5ZXAC2DFD65F47B1E789950ADEB91E4D16F5.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/1/4L/MLUH4B3IV6EQIGIEXL5ZXA.uasset'
+[2026.04.20-14.43.28:707][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/C/OM/LWH2UWKBDCC4S7HZOMYO50
+[2026.04.20-14.43.28:707][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/LWH2UWKBDCC4S7HZOMYO504E9F715942994E8A5770CE8115369FBB.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/C/OM/LWH2UWKBDCC4S7HZOMYO50.uasset'
+[2026.04.20-14.43.28:712][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/E/LI/RL6OQECYD0BE67IMGVRK9O
+[2026.04.20-14.43.28:712][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/RL6OQECYD0BE67IMGVRK9O31C569974D708D9766D84BAA7B6B5AD1.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/E/LI/RL6OQECYD0BE67IMGVRK9O.uasset'
+[2026.04.20-14.43.28:717][735]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/QA/YNDRAZIC7PDDEKOFTQVT3M
+[2026.04.20-14.43.28:717][735]LogSavePackage: Moving '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/YNDRAZIC7PDDEKOFTQVT3M73D8A3844E2CCBA8C9A2778D6F682BF1.tmp' to '../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/9/QA/YNDRAZIC7PDDEKOFTQVT3M.uasset'
+[2026.04.20-14.43.28:733][735]LogFileHelpers: InternalPromptForCheckoutAndSave took 718.452 ms (total: 893.908 ms)
+[2026.04.20-14.43.28:810][735]LogContentValidation: Display: Starting to validate 106 assets
+[2026.04.20-14.43.28:810][735]LogContentValidation: Enabled validators:
+[2026.04.20-14.43.28:810][735]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.20-14.43.28:810][735]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.20-14.43.28:810][735]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.20-14.43.28:810][735]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.20-14.43.28:810][735]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.20-14.43.28:810][735]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.20-14.43.28:810][735]AssetCheck: /Game/FirstPerson/Lvl_FirstPerson Validating asset
+[2026.04.20-14.43.28:838][735]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/esteve21/Desktop/UE_FinalProject/FinalProject/Saved/SourceControl/UncontrolledChangelists.json
