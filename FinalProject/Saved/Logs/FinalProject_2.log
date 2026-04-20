@@ -1757,3 +1757,13 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.04.20-14.44.38:804][531]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2026.04.20-14.44.38:804][531]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2026.04.20-14.44.38:804][531]AssetCheck: /Game/FirstPerson/Lvl_FirstPerson Validating asset
+[2026.04.20-14.45.00:595][874]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Kamvas Pro 24 (NVIDIA High Definition Audio), InstanceID=1
+[2026.04.20-14.45.00:595][874]LogAudioMixer: Display: Attempt to swap audio render device to new device: '{0.0.0.00000000}.{84843782-772f-4932-b8e0-8521c6805a01}', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.04.20-14.45.00:921][875]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [{0.0.0.00000000}.{84843782-772f-4932-b8e0-8521c6805a01}]
+[2026.04.20-14.45.00:921][875]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2026.04.20-14.45.00:921][875]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2026.04.20-14.45.01:253][876]LogAudioMixer: Display: FMixerPlatformXAudio2::PostDeviceSwap - successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{84843782-772f-4932-b8e0-8521c6805a01}, Name=Kamvas Pro 24 (NVIDIA High Definition Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=21.02
+[2026.04.20-14.45.01:253][876]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2026.04.20-14.45.01:253][876]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.04.20-14.45.01:255][876]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.04.20-14.45.05:921][890]LogTemp: Error: Invalid device handle before attempting to read
